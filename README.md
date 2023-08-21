@@ -2,7 +2,7 @@
 A witness page redesign proposal.
 
 # Tool
-ReactJS, Bootstrap v5.2
+ReactJS, TailwindCSS
 
 # Author
 Frank Chung 鐘揮凱
