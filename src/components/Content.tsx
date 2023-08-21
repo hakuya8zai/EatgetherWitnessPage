@@ -106,7 +106,7 @@ const posts = [
 export function Content(){
     return(
         <div className="bg-gray-200 flex flex-row justify-center">
-            <div className="basis-1/1 md:basis-5/6 lg:basis-5/6 p-4">
+            <div className="basis-1/1 md:basis-5/6 lg:basis-5/6 p-4 mb-10">
                 <h2 className="text-[#0f0f0f] text-l border-[#3d392c1a] border-b-2 mb-6 pb-2">
                     交友見證
                 </h2>
@@ -116,7 +116,7 @@ export function Content(){
                 {/* 以下用 map 把 post 用 callback 重新產生成 element */}
                 <section className="mt-5 columns-1 md:columns-2 lg:columns-3 gap-5">
                     {posts.map((post)=>(
-                        <article key={post.id} className="mb-5 flex flex-col border-[#3d392c1a] border-2 px-4 pb-2 rounded-lg break-inside-avoid">
+                        <article key={post.id} className="mb-5 flex flex-col px-4 pb-2 rounded-lg break-inside-avoid bg-white shadow-md">
                             {/* 會員身份 */}
                             <div className="mt-4 flex items-center gap-x-4">
                                 <img src={post.author.imageUrl} alt="" className="h-10 w-10 rounded-full bg-gray-50" />
